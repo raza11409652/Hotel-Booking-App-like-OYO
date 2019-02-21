@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A283A</color>
+    <color name="colorPrimaryDark">#1A283A</color>
+    <color name="colorAccent">#ad343e</color>
+    <color name="yellow">#f2af29</color>
+    <color name="white">#ffffff</color>
+    <color name="themeColor">#EE2E24</color>
+    <color name="colorPrimaryLight">#55606a</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="background">#dddddd</color>
+    <color name="accent">#42BFEA</color>
+
+    <!-- 480355-ffffff-ad343e-480340-f2af29 -->
+</resources>

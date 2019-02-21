@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SearchForProperty"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        android:id="@+id/listProerty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/emptyIconwrapper"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/emptyIcon"
+               android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/empty"
+                />
+            <TextView
+                android:layout_marginTop="@dimen/parent_layout_padding"
+                android:gravity="center"
+                android:layout_below="@+id/emptyIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Result  found"
+                />
+        </RelativeLayout>
+       <LinearLayout
+           android:id="@+id/propertyListwrapper"
+           android:visibility="gone"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <android.support.v7.widget.RecyclerView
+
+               android:id="@+id/recycler_view"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:scrollbars="vertical" />
+       </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

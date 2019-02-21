@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationSearch">
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:padding="@dimen/parent_layout_padding"
+         android:layout_margin="0sp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:theme="@style/PrimaryFlatButton"
+         android:text="@string/near_me"
+         />
+     <TextView
+         android:textStyle="bold"
+         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+         android:padding="@dimen/btn_radius"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/cities" />
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/locationList"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+     </android.support.v7.widget.RecyclerView>
+ </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

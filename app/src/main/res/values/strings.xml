@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">FOD</string>
+    <string name="MobileHint">10 digit Indian Mobile Number</string>
+    <string name="loginBtn">Login</string>
+    <string name="invalidMobile">Invalid Mobile Number</string>
+    <string name="hint_otp_activity">We have sent a \"4 digit OTP \"</string>
+    <string name="edit">Edit</string>
+    <string name="verify">Verify</string>
+    <string name="nameHint">Enter Your Name</string>
+    <string name="emailHint">Enter Your Email</string>
+    <string name="save">SAve</string>
+
+    <string name="title_home">HOME</string>
+    <string name="title_bookings">Bookings</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_location">Enter Your Location</string>
+    <string name="search">SEARCH</string>
+    <string name="view_btn">View</string>
+    <string name="book_btn">Book Now</string>
+    <string name="near_me">Find FOD near Me</string>
+    <string name="invalid_lat_long_used">Invalid</string>
+    <string name="service_not_available">Service not Available</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="recent_news">News</string>
+    <string name="publish_date">date</string>
+    <string name="in_news">news</string>
+    <string name="address">Address</string>
+    <string name="price">Price Breakup</string>
+    <string name="security_money">Security Money</string>
+    <string name="monthly_money">Monthly Payment</string>
+    <string name="security_money_hint">* Your security money will be refunded after the completion of your booking tenure.
+    </string>
+    <string name="electricity_money">Electricity Charge</string>
+    <string name="cities">Cities</string>
+    <string name="note">Please Read</string>
+    <string name="note_1">1. Guest can check in using any local or outstation ID Proof    (PAN card not accepted).</string>
+    <string name="note_2">2. Couples are welcome.</string>
+    <string name="note_3">3. All Nationals are allowed.</string>
+    <string name="id_text">ID Proof</string>
+    <string name="id_hint">This will be used to verify your identity</string>
+    <string name="adhaar">Adhaar Card</string>
+    <string name="passport">Passport</string>
+    <string name="Account_Details">User Details</string>
+    <string name="checkout">Checkout</string>
+    <string name="boking_for">Booking For</string>
+    <string name="or">OR</string>
+    <string name="or_advance">Make an advance payment of Rs 1000.00 to book this flat.</string>
+    <string name="selectDate">Date From</string>
+    <string name="selectDateTo">Date To</string>
+    <string name="dateFormat" translatable="false">EE, dd MMM</string>
+    <string name="timeFormat" translatable="false">EE, dd MMM HH:mm</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="logout">Logout</string>
+    <string name="title_bookings_date">Booked On</string>
+    <string name="property_name">Property Name</string>
+    <string name="basic">Basic Details</string>
+    <string name="fatherName">Father Name</string>
+    <string name="addres_details">Maheru Colony Near Law gate (LPU) , Jalandhar , Punjab , India</string>
+    <string name="fatherMobile">Contact No.</string>
+    <string name="currentPg">Current FOD</string>
+    <string name="fod_name">FOD</string>
+    <string name="care_taker_mobile">Contact Person</string>
+    <string name="no_booking">You don\'t have any current booking with us</string>
+    <string name="Bookings">Bookings</string>
+    <string name="Payment_remainder">Payment Remainder</string>
+    <string name="maintainance">Maintainance</string>
+    <string name="letsgetStarted">Let\'s get you started</string>
+    <string name="Offer">OFFER NAME</string>
+    <string name="couponCodeDetails">Coupon Code Details goes here like Book now and get 30 % Off</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_radius">4sp</dimen>
+    <dimen name="parent_layout_padding">12sp</dimen>
+    <dimen name="marginBtmEdit">10sp</dimen>
+    <dimen name="logoFontSize">24sp</dimen>
+    <dimen name="login_logo_paading">80sp</dimen>
+    <dimen name="login_container">10sp</dimen>
+    <dimen name="login_company_name">12sp</dimen>
+    <dimen name="activity_vertical_margin">20sp</dimen>
+    <dimen name="otp_verify_margin">30sp</dimen>
+    <dimen name="activity_horizontal_margin">20sp</dimen>
+    <dimen name="album_cover_height">180sp</dimen>
+    <dimen name="album_title_padding">4sp</dimen>
+    <dimen name="songs_count_padding_bottom">4sp</dimen>
+    <dimen name="card_margin">4sp</dimen>
+    <dimen name="card_album_radius">4sp</dimen>
+    <dimen name="btn_height">120sp</dimen>
+    <dimen name="header_text_size">24sp</dimen>
+    <dimen name="margin_top_view">10sp</dimen>
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">60dp</dimen>
+    <dimen name="placeholderTextHeight">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_4">4sp</dimen>
+    <dimen name="zero">0sp</dimen>
+    <dimen name="logo_margin_bototm">52sp</dimen>
+    <dimen name="btn_padding">18sp</dimen>
+    <dimen name="btn_radius_round">50sp</dimen>
+</resources>

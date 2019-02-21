@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0sp"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        >
+        <ImageView
+            android:id="@+id/locationImage"
+            android:layout_width="40sp"
+            android:layout_height="40sp" />
+        <TextView
+            android:id="@+id/locationTitle"
+            android:layout_margin="10sp"
+            android:layout_toRightOf="@id/locationImage"
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

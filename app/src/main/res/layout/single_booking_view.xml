@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/zero"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:background="@drawable/layout_background_accent"
+        android:padding="@dimen/parent_layout_padding"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/property_name"
+            android:id="@+id/bookedProperty"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_bookings_date"
+            android:id="@+id/bookingDate"
+            />
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/fromDate"
+                android:text="@string/selectDate"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/toDate"
+                android:text="@string/selectDateTo"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bookingNo"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boking_for"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
